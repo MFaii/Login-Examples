@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #fff;
+  padding: 0;
+}
+
+.login1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://wallpapers.com/images/hd/abstract-background-6m6cjbifu3zpfv84.jpg")
+    no-repeat center / cover;
+}
+
+form {
+  width: 350px;
+  height: 550px;
+  padding: 60px 35px 35px 35px;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid #fff;
+  backdrop-filter: blur(20px);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
